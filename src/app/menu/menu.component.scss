@@ -1,0 +1,20 @@
+ul{
+    background: var(--primary-color);
+    margin: 0;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    gap: 1rem;
+    list-style-type: none;
+
+    li{
+        color: var(--secondary-color);
+        font-size: 20px;
+        font-weight: bold;
+
+        a{
+            text-decoration: none;
+            color: unset;
+        }
+    }
+}
